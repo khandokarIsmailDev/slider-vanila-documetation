@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Tailwind Project</title>
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class=" absolute w-full z-10 top-0 left-0 flex justify-between items-center p-4 px-10 bg-white  shadow-[8px_8px_30px_0px_rgba(42,67,113,0.15)]">
+    <div class="">
+        <img class="w-56 cursor-pointer" src="./assets/logo.png" alt="">
+    </div>
+    <div class="">
+        <ul class="flex items-center gap-6 text-gray-500">
+            <li class="font-bold text-black">Demo</li>
+            <li class="hover:text-black text-black font-bold">Documentation</li>
+        </ul>
+    </div>
+    <div>
+        <button class="bg-[#0560E7] text-white px-5 py-2 rounded-full hover:bg-[#0560E7] shadow-[12px_12px_20px_0px_rgba(1,96,231,0.3)]">View Demo</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+   <section class=" relative flex justify-between  bg-[url('./assets/bg_banner.png')] bg-cover bg-center py-64 px-44">
+    <div class="w-[40%] pt-24 ">
+        <h1 class="text-5xl font-bold leading-[3.5rem] mb-24">Next-generation <br> <span class="text-[#01C3FF]">Carousel or Slider</span> <br>Html Template</h1>
+        <div>
+            <div class="bg-[#FE4C1C] text-white   max-w-44 py-2 rounded-full hover:bg-[#0560E7] shadow-[12px_12px_20px_0px_rgba(1,96,231,0.3)]  flex gap-3 justify-center items-center font-bold">
+                <button class="pl-4">View Demo</button>
+                <div class="w-11 h-11  bg-white text-black rounded-full flex items-center justify-center">
+                    <i class="fa-solid fa-arrow-right text-[#FE4C1C]"></i>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="w-[57%] flex justify-end ">
+        <img class="" src="./assets/img1_.png" alt="">
+    </div>
+   </section>
+
+</body>
+</html>
